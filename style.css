@@ -147,8 +147,51 @@ header nav ul li a{
     color: #111111;
 }
 
-header .header-wikipedia {
+header .header-other-link {
     display: none;
+}
+
+@media only screen and (min-width: 1023px) {
+    header .header-logo {
+        font-size: 30px;
+        margin: 0;
+        padding: 20px 20px 0px 40px;
+        text-align: left;
+        line-height: 40px;
+        border-right: 3px solid #111111;
+        float: left;
+    }
+    header nav ul {
+        margin: 20px 0px 0px 20px;
+        float: left;
+    }
+    
+    header nav ul li {
+        display: inline-block;    
+        float: left;
+        list-style: none;
+        padding: 0 20px;
+    }
+    
+    header nav ul li a{
+        font-size: 18px;
+        font-weight: 600;
+        color: #111111;
+        line-height: 50px;
+    }
+    header .header-other-link {
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 40px;
+        color: #111111;
+        text-transform: uppercase;
+        border: 1px solid #111;
+        float: right;
+        margin-right: 40px;
+        margin-top: 24px;
+        padding: 0 20px;
+    }
 }
 
 
@@ -194,7 +237,7 @@ header .header-wikipedia {
     margin: 15px 15px 0;
     width: calc(100% - 30px);
     height: auto;
-    background-color: mediumaquamarine;    
+    background-color: beige;   
 }
 
 
