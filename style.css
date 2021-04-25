@@ -194,8 +194,9 @@ header .header-wikipedia {
     margin: 15px 15px 0;
     width: calc(100% - 30px);
     height: auto;
-    background-color: mediumaquamarine;
+    background-color: mediumaquamarine;    
 }
+
 
 #box-2 {
     margin: 15px 15px 0;
@@ -209,4 +210,49 @@ header .header-wikipedia {
     width: calc(100% - 30px);
     height: auto;
     background-color: mediumaquamarine;
+}
+
+.box-title { 
+    text-align: center;
+    text-shadow: 1px 1px #111;  
+    color: maroon;
+    padding: 10px 0;
+}
+
+/* *** FOOTER *** */
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: aliceblue;  
+    overflow: hidden;  
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li{    
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {    
+    font-size: 20px;
+    font-weight: 500;
+    color: #111111;
+    line-height: 40px;
+}
+
+.footer-media {
+    width: 34px;
+    float: right;
+}
+
+.footer-media img{
+    width: 100%;
+    margin-bottom: 16px;
 }
